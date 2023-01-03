@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
 *{
     box-sizing: border-box;
-    font-size: 16px;  
+    font-size: 21px;  
     
 }
 
@@ -12,47 +12,36 @@ body{
 }
 .hero{
     width: 100vw;
-    height: 70vh;
     background-color: #23424A;
-    
+    letter-spacing: 0.15rem;
 }
 .card{
-
-    min-width: 50%;
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 3em;
-    color: #ffffff;
-    
-    
+    color: #ffffff;  
+}
+.card-text{
+    width: 60%;
 }
 h1{
-    font-size: 2rem;
-    font-weight: 900;
-    line-height: 2rem;
-    letter-spacing: 0.15rem;
+    font-size: 2.5rem;
+    font-weight: 900;  
     margin-bottom: 1em;
 }
 p{
     font-weight: 400;
-    line-height: 2rem;
-    letter-spacing: 0.12rem;
     margin-bottom: 2em;
 }
 button{
-    min-width: 30%;
     text-transform: uppercase;
     color: #072A2D;
-    font-size: 1.5rem;
     font-weight: 700;
-    padding: 0.5em;
+    padding: 0.75em 2em;
     background-color: #38CFD9;
     border: 1px solid #38CFD9;
     border-radius: 3em;
    
 }
 
-@media screen and (max-width: 786px) {
-    *{
-        font-size: 14px;
-    }
-   
-}
